@@ -1,0 +1,209 @@
+:root {
+  --primaryColor: #02024d;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.mb-3 {
+  margin-bottom: 1.25rem;
+}
+
+.hero-style-1 .swiper-pagination-bullet i {
+  top: 37px;
+}
+
+.hero-style-1 .slide-title h2 {
+  font-weight: 500;
+  text-shadow: 2px 2px rgba(0, 0, 0, .3);
+}
+
+.hero-style-1 .slide-text p {
+  text-shadow: 2px 2px rgba(0, 0, 0, .2);
+}
+
+.hero-style-1 .swiper-pagination-bullet-active {
+  background: var(--primaryColor);
+}
+
+.swiper-pagination-bullet>.fi>.img-active {
+  display: none;
+}
+
+.swiper-pagination-bullet-active>.fi>.img-unactive {
+  display: none;
+}
+
+.swiper-pagination-bullet-active>.fi>.img-active {
+  display: block;
+}
+
+.section-title .icon,
+.section-title-s2 .icon,
+.section-title-s3 .icon,
+.section-title-s6 .icon,
+.section-title-s4 .icon {
+  background-color: var(--primaryColor);
+}
+
+.section-title>span,
+.section-title-s2>span,
+.section-title-s3>span,
+.section-title-s6>span,
+.section-title-s4>span {
+  color: var(--primaryColor)
+}
+
+.service-section .left-col {
+  width: 30%;
+}
+
+.service-section .right-col {
+  max-width: 70%;
+}
+
+
+
+.service-section .left-col:before {
+  background: url(../images/slider/hero-5.jpg);
+  background-position: center;
+}
+
+.site-header #navbar>ul li a:hover,
+.site-header #navbar>ul li a:focus {
+  /*color: var(--primaryColor) !important;*/
+}
+
+.contact-section,
+.contact-section-s2 {
+  background: url(../images/slider/footer-bg.jpg);
+}
+
+.site-footer .social-newsletter-area .social-newsletter-content>div:nth-child(2) {
+  width: 100%;
+}
+
+.site-footer .social-newsletter-area .logo-area img {
+  margin-left: 0px;
+}
+
+.header-style-1 .navigation,
+.header-style-2 .navigation,
+.header-style-3 .navigation {
+  background-color: rgba(0, 0, 0, .15);
+}
+
+.page-korporasi-umum {
+  background: url(../images/area-praktek/korporasi-umum.jpg);
+  background-position: top;
+  background-size: cover;
+}
+
+.page-infrastruktur-properti {
+  background: url(../images/area-praktek/infrastruktur-properti.jpg);
+  background-position: top;
+  background-size: cover;
+
+}
+
+.page-haki {
+  background: url(../images/area-praktek/haki.jpg);
+  background-position: top;
+  background-size: cover;
+
+}
+
+
+.page-medical {
+  background: url(../images/area-praktek/medical-malpractice.jpg);
+  background-position: top;
+  background-size: cover;
+
+}
+
+.page-ketenagakerjaan {
+  background: url(../images/area-praktek/ketenagakerjaan.jpg);
+  background-position: top;
+  background-size: cover;
+
+}
+
+.page-kasus-pidana {
+  background: url(../images/area-praktek/kasus-pidana.jpg);
+  background-position: top;
+  background-size: cover;
+
+}
+
+.page-hukum-perdata {
+  background: url(../images/area-praktek/hukum-perdata.jpg);
+  background-position: top;
+  background-size: cover;
+
+}
+
+
+.page-perkawinan-perceraian {
+  background: url(../images/area-praktek/perkawinan-perceraian.jpg);
+  background-position: top;
+  background-size: cover;
+
+}
+
+
+.page-perkara-tata-usaha {
+  background: url(../images/area-praktek/perkara-tata-usaha.jpg);
+  background-position: top;
+  background-size: cover;
+
+}
+
+
+.page-tim {
+  background: url(../images/slider/tim-lawyer.jpeg);
+  background-position: top;
+  background-size: cover;
+
+}
+
+.page-contact {
+  background: url(../images/slider/hero-6.jpg);
+  background-position: top;
+  background-size: cover;
+}
+
+.page-tentang{
+  background: url(../images/slider/hero-2.jpg);
+  background-position: top;
+  background-size: cover;
+}
+
+#tentangKami{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+.page-title h2 {
+  text-shadow: 2px 2px rgba(0, 0, 0, .3);
+}
+
+.contact-section-s3{
+  padding-top: 70px;
+}
+
+.contact-section-s3 .contact-info-col{
+  padding-top: 0px;
+  padding-bottom: 70px;
+  width: 100%;
+}
+
+.kanan-col{
+  padding: 110px 60px 44px 60px;
+  background-color: #262b3e;
+}
+
+.kiri-col{
+  background: url(../images/ceo-img.jpg) center top/cover no-repeat local;
+}
