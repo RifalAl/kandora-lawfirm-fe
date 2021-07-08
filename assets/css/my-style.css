@@ -208,6 +208,10 @@
   background: url(../images/ceo-img.jpg) center top/cover no-repeat local;
 }
 
+.logo-area img{
+    width: 20%;
+  }
+
 @media (max-width: 1000px){
   .site-header .navbar-header{
     background-color: #000034;
@@ -216,6 +220,10 @@
   .header-style-1 .navigation, .header-style-2 .navigation, .header-style-3 .navigation{
     border-top: 0px solid rgba(255, 255, 255, 0.1);
     border-bottom: 0px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .logo-area img{
+    width: 60%;
   }
 
 }
